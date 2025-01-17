@@ -327,6 +327,7 @@ nav>ul>li>button {
 }
 
 .Amount button {
+    display: inline;
     margin: 50px;
     padding: 20px 40px;
     font-size: 80px;
