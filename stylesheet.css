@@ -1,0 +1,376 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: azure; */
+    font-family: sans-serif;
+    
+
+}
+.p, h3, img {
+    background-color: transparent;
+}
+body {
+    background-color: #F1F1F3;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #F5F5F5;
+    padding: 26px 211px 24px 165px; /* top right bottom left */
+
+    gap:169px;
+
+}
+
+nav ul li {
+    margin-left: 165px;
+    list-style: none;
+    font-size: x-large;
+
+
+}
+
+nav>ul>li>button {
+
+    font-size: x-large;
+    padding:5px 10px 5px 10px;
+    background-color: transparent; 
+    border:2px solid #4CAF50;
+    color: #4CAF50;
+    border-radius: 5%;
+    list-style: none;
+}
+
+.banner {
+    display: flex;
+    padding: 80px  100px 80px 100px ; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 2%;
+    gap:64px;
+}
+.banner image{
+    width: 474px;
+    height: 400px0;
+}
+.banner button{
+    padding: 17px 34px 17px 34px;
+    background-color: #006A50;
+    border-radius: 5%;
+    font-size: large;
+    color: white;
+}
+.listing {
+    display: flex;
+   justify-content: center;
+    padding: 24px;
+    align-items: center;
+   gap: 18px;
+  
+
+
+}
+
+.vision{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+.vision h1{
+    font-size: xx-large;
+}
+.listing div {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+    width: 302px;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    gap:24px;
+    height: 200px !important;
+    padding: 24px;
+    
+}
+
+.listing h3 {
+    font-size: x-large;
+}
+
+.holder {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.idea {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+.idea p{
+    font-size: large;
+}
+.idea h1{
+    font-size: 50px;
+}
+.piller h1{
+    font-size: xx-large;
+    margin-bottom: 32px;
+
+}
+.listing2 {
+    display: flex;
+   
+    
+    display: flex;
+    justify-content: center;
+     padding: 24px;
+     align-items: center;
+    gap: 18px;
+   
+
+}
+.listing2 div {
+    min-height: 300px; /* Ensures all cards have at least this height */
+    height: auto; 
+    
+
+}
+.listing2 p{
+    color: #0E0E0E
+}
+
+.v1 {
+
+    background-color: #a6bbdf;
+    /* Original color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px;
+    /* Add padding */
+    border-radius: 10px;
+    /* Optional: for a polished look */
+    
+    width: 400px;
+}
+
+.v1,.v2,.v3 img{
+    margin-bottom: 24px;
+}
+.v2 {
+    background-color: #88c1a8;
+    /* Original color */
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+.v3 {
+    background-color: #F7EBCF;
+    /* Original color */
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+.v1 button {
+    background-color: #5490F5;
+    margin-top: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.v2 button {
+    background-color: #09A15C;
+    margin-top: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.v3 button {
+    background-color: #FFC239;
+    margin-top: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.dryonus {
+    background-image: url("B11A1--assignment-1/assets/quote-bg.png");
+    background-repeat: no-repeat;
+   height: auto;
+    display: flex;
+    flex-direction: column;
+background-color: #FFFFFF;
+    justify-content: space-evenly;
+    gap:12px;
+    margin-bottom: 80px;
+padding: 48px 12px;
+border-color: 2px solid #0E0E0E ;
+border-radius: 5px;
+}
+
+.recentnews1 {
+    display: flex;
+flex-direction: column;
+
+gap:32px;
+    
+}
+.recentnews1 h1{
+    font-size: 50px;
+}
+
+.recentnews div {
+
+    margin-bottom: 10px;
+    
+
+}
+
+.parallel {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin: 10px;
+    gap:30px;
+   background-color: #FFFFFF;;
+    border-radius: 2%;
+
+}
+.parallel img {
+    border-radius: 25px;
+}
+.btn button {
+    margin-top: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    background-color: #006A50;
+    color: white;
+
+}
+
+.donation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5%;
+}
+
+.donation h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.Amount button {
+    margin: 50px;
+    padding: 20px 40px;
+    font-size: 80px;
+    text-align: center;
+   border-radius: 5px;
+  height: auto;
+    border: none;
+    
+
+
+}
+.Amount > button.one, 
+.Amount > button.two, 
+.Amount > button.four {
+    background-color: white;
+}
+
+
+.green{
+    background-color: #C6E4D6;
+}
+.otheramount textarea{
+    padding: 10px 40px 10px 40px;
+    width: 1100px !important;
+    border-radius: 5%;
+    font-size: large;
+}
+.done {
+  padding: 5px;
+    border-radius: 5px;
+    background-color: #006A50; 
+    color: white;
+    font-size: xx-large;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 100px 80px 100px;
+    background-color: #C6E4D6;
+    font-size: 23px;
+    border-radius: 25px;
+}
+.subscribe textarea {
+    padding: 10px 40px 10px 40px;
+    width: 565px !important;
+    border-radius: 5%;
+}
+.input {
+    display: flex;
+    align-items: center;
+    gap: 0px; /* Adjust spacing as needed */
+}
+
+.input button {
+    /* margin-top: 24px; */
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    background-color: #006A50; 
+    color: white;
+    font-size: x-large;
+}
+button:hover {
+    background-color: black !important;
+    color: #ffffff !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
